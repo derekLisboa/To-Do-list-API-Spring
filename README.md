@@ -2,10 +2,124 @@
 
 Java, Spring Boot, H2 Database e API Dog.
 
-## Principais Tecnologias
- - **Java 17**: Utilizaremos a versão LTS mais recente do Java para tirar vantagem das últimas inovações que essa linguagem robusta e amplamente utilizada oferece;
- - **Spring Boot 3**: Trabalharemos com a mais nova versão do Spring Boot, que maximiza a produtividade do desenvolvedor por meio de sua poderosa premissa de autoconfiguração;
- - **Spring WEB**: Exploraremos como essa ferramenta pode simplificar nossa camada de acesso aos dados, RESTful, facilitando a integração com bancos de dados H2 e API Dog;
- - **MAVEN*: Gerenciar as dependências e automatizar as builds;
+API REST desenvolvida com Java e Spring Boot para gerenciamento de tarefas.
 
+Este projeto permite criar, listar, atualizar e deletar tarefas, seguindo o padrão de arquitetura em camadas.
 
+---
+
+## 🚀 Tecnologias
+
+- Java
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- Hibernate
+- Banco de Dados Relacional
+- Maven
+
+---
+
+## 📌 Funcionalidades
+
+- Criar tarefa
+- Listar todas as tarefas
+- Buscar tarefa por ID
+- Atualizar tarefa
+- Deletar tarefa
+- Marcar tarefa como concluída
+
+---
+
+## 📮 Endpoints
+
+### Criar tarefa
+POST /tasks
+
+### Listar tarefas
+GET /tasks
+
+### Buscar por ID
+GET /tasks/{id}
+
+### Atualizar tarefa
+PUT /tasks/{id}
+
+### Deletar tarefa
+DELETE /tasks/{id}
+
+---
+
+## 🏗️ Estrutura do Projeto
+
+O projeto está organizado em camadas:
+
+- **Controller** → Responsável pelos endpoints
+- **Service** → Regras de negócio
+- **Repository** → Acesso ao banco de dados
+- **Entity** → Representação da tabela
+
+---API REST desenvolvida com Java e Spring Boot para gerenciamento de tarefas.
+
+Este projeto permite criar, listar, atualizar e deletar tarefas, seguindo o padrão de arquitetura em camadas.
+
+---
+
+## 🚀 Tecnologias
+
+- Java
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- Hibernate
+- Banco de Dados Relacional
+- Maven
+
+---
+
+## 📌 Funcionalidades
+
+- Criar tarefa
+- Listar todas as tarefas
+- Buscar tarefa por ID
+- Atualizar tarefa
+- Deletar tarefa
+- Marcar tarefa como concluída
+
+---
+
+## 📮 Endpoints
+
+### Criar tarefa
+POST /tasks
+
+### Listar tarefas
+GET /tasks
+
+### Buscar por ID
+GET /tasks/{id}
+
+### Atualizar tarefa
+PUT /tasks/{id}
+
+### Deletar tarefa
+DELETE /tasks/{id}
+
+---
+
+## 🏗️ Estrutura do Projeto
+
+O projeto está organizado em camadas:
+
+- **Controller** → Responsável pelos endpoints
+- **Service** → Regras de negócio
+- **Repository** → Acesso ao banco de dados
+- **Entity** → Representação da tabela
+
+---
+
+## 🎯 Objetivo
+
+Projeto criado para praticar desenvolvimento de APIs REST com Spring Boot e boas práticas de organização de código.
+
+---
